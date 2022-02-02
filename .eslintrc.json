@@ -1,0 +1,7 @@
+{
+    "ignorePatterns": ["**/plugins/*.js", "src/plugins/*.js", "**/components/*.vue", "src/components/*.vue"],
+    "parserOptions": {
+        "ecmaVersion": 7,
+        "sourceType": "module"
+      }
+}
