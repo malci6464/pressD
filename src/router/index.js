@@ -2,6 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
 import Press from "../components/PressReader.vue";
+import Press2 from "../components/Press2.vue";
 Vue.use(VueRouter);
 
 const routes = [
@@ -14,6 +15,11 @@ const routes = [
     path: "/press",
     name: "press",
     component: Press,
+  },
+  {
+    path: "/press2",
+    name: "press2",
+    component: Press2,
   },
   {
     path: "/about",
